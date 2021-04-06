@@ -1,0 +1,55 @@
+
+
+.accordion {
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-left: 2px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .accordion:after {
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .container {
+      margin: 0vw 5vw 0vw 5vw
+  }
+
+  .panel {
+      padding: 18px;
+      border-left: 2px solid rgb(219, 219, 219);
+  }
+
+  .pi {
+    font-size: 1vw;
+    color: #fff;
+    background: #b6b6b6;
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.3vw;
+    vertical-align: middle;
+    padding: 10px;
+    box-sizing: content-box;
+  }
+
+  .title-icon {
+      margin-left: -2.2vw
+  }
+
+  .icon-active {
+    background: #2980B9;
+  }
+
+  .title-text {
+      margin-left: 0.5vw;
+      font-family: Helvetica, sans-serif !important; 
+  }
